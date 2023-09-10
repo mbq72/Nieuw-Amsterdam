@@ -1,0 +1,95 @@
+
+#content{
+margin-top: 20px;
+}
+[class*="col-"] {
+width: 100%;
+}
+@media only screen and (min-width: 768px) {
+[class*="col-"] {
+float: left;
+padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
+
+header {
+    text-align: center;
+    background-color: #eeff07;
+    color: black;
+    width: 100%;
+    height: 50px;
+}
+img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height:200px;
+
+}
+#kop {
+	/* opmaak structuurelement <header> */
+	font-size: 2em;
+	font-weight: bold;
+	background: image (Drawbridge_in_Nieuw-Amsterdam_-_My_Dream.jpg);
+	width: 955px;
+	height: 100px;
+}
+
+body{
+    background-color: navy;
+    margin: 0 auto;
+    }
+    header{
+    min-height: 100px;
+    background-color: olive;
+    }
+    section{
+    padding: 10px;
+    }
+    #inhoudeen{
+    width: 50%;
+    min-height: 400px;
+    background-color: white;
+    float: left;
+    }
+    table {
+        margin: auto;
+        border: 5px solid red;
+    }
+    #td{
+        border: 3px solid black;
+        width: 300px;
+        height: 150px;
+    }
+    #inhoudtwee{
+    width: 50%;
+    min-height: 400px;
+    background-color: pink;
+    color: azure;
+    float: right;
+    }
+    #img {
+      float: left;
+        width: 25%;
+        margin-right:5px;
+        border-radius: 5px;
+        border: 2px solid white;
+        padding:5px
+    }
+    
+        footer{
+    min-height: 100px;
+    background-color: yellow;
+    }
